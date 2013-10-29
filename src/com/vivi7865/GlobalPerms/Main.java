@@ -46,7 +46,7 @@ public class Main extends JavaPlugin implements Listener {
 		Bukkit.getPluginManager().registerEvents(this, this);
 	}
 
-	public void onPJ(PlayerJoinEvent e) {
+	public void onPJ(PlayerJoinEvent event) {
 
 		
 
