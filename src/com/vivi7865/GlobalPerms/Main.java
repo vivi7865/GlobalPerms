@@ -13,9 +13,9 @@ import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class Main extends JavaPlugin implements Listener {
-	String url = "jdbc:mysql://mysql2.alwaysdata.com:3306/bobyland_minecraft";
-	String user = "bobyland_mc";
-	String password = "J?+dQ3*[9cVhyY37w2f[$=xX952Gt_MW";
+	String url = "";
+	String user = "";
+	String password = "";
 	Connection connexion = null;
 	Statement statement;
 
