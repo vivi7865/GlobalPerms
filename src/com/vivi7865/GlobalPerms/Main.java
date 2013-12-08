@@ -38,7 +38,7 @@ public class Main extends JavaPlugin implements Listener {
 		try {
 		    connexion = DriverManager.getConnection(url, user, password);
 		    statement = connexion.createStatement();
-		    
+
 		} catch (SQLException e) {
 		    e.printStackTrace();
 		}
